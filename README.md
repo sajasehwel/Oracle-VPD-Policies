@@ -45,8 +45,8 @@ This project demonstrates the implementation of **Virtual Private Database (VPD)
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/VPD-Implementation.git
-   cd VPD-Implementation
+   git clone https://github.com/sajasehwel/Oracle-VPD-Policies.git
+   cd Oracle-VPD-Policies
    ```
 2. **Connect to Oracle Database:**
    ```sql
