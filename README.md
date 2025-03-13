@@ -30,7 +30,8 @@ This project demonstrates the implementation of **Virtual Private Database (VPD)
 │── 📜 2_Salary_Policy.sql       # Column-level security for salary
 │── 📜 3_Time_Based_Access.sql   # Restricting access to work hours
 │── 📜 4_Department_Location_Updates.sql  # Restrict updates to managers
-│── 📜 test_users_setup.sql      # Creating test users for validation
+│── 📜 5_hr_context.sql
+│── 📜 6_Job_History_using_context.sql # Row-level security for job history using hr_context
 ```
 
 ## Installation & Setup
@@ -54,11 +55,12 @@ This project demonstrates the implementation of **Virtual Private Database (VPD)
    ```
 3. **Run the scripts in order:**
    ```sql
-   @test_users_setup.sql
    @1_Job_History_Access.sql
    @2_Salary_Policy.sql
    @3_Time_Based_Access.sql
    @4_Department_Location_Updates.sql
+   @5_hr_context.sql
+   @6_Job_History_using_context.sql
    ```
 4. **Test with different users and permissions.**
 
